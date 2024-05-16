@@ -1,27 +1,27 @@
 import re
+import torch
+from torch.utils.data import Dataset, DataLoader
 
-# Build vocabulary function
-def build_vocabulary():
-    with open("data/raw/ceten.xml", "r") as file:
-        text = file.read()
+# Sentence Dataset
+class SentenceDataset(Dataset):
+    def __init__(self, path):
+        self.sentences = self._load_sentences(path)
 
-    # Step 1: Clean the text replacing <s> and </s> tags and converting to lower case
-    text = re.sub(r"<s>|</s>", "", text).lower()  # Remove <s> tags and convert to lower case
+    def _load_sentences(self, path):
+        with open(path, "r") as file:
+            text = file.read()
 
-    # Step 2: Tokenize the text by simply splitting it by spaces
-    words = text.split()
+        sentences = texts.split("\n")
 
-    # Step 3: Sort the words by alphabetical order
-    words.sort()
+        return sentences
 
-    # Step 4: Build the vocabulary
-    vocabulary = {word: idx for idx, word in enumerate(set(words))}
+    def __len__(self):
+        return len(self.sentences)
+    
+    def __getitem__(self, idx):
+        return self.sentences[idx]
 
-    # Optional: Add a special token for unknown words
-    vocabulary["<unk>"] = len(vocabulary)
-
-    return vocabulary
 
 if __name__ == "__main__":
-    vocabulary = build_vocabulary()
-    print("Vocabulary 10 first elements:", {k: vocabulary[k] for k in list(vocabulary)[:10]})
+    sentence_dataset = SentenceDataset("data/raw/ceten.xml")
+    breakpoint()
