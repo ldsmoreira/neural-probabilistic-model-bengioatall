@@ -11,7 +11,7 @@ class SentenceDataset(Dataset):
         with open(path, "r") as file:
             text = file.read()
 
-        sentences = texts.split("\n")
+        sentences = text.replace("<s> ", "").replace(" </s> ", "").split("\n")
 
         return sentences
 
