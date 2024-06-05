@@ -2,7 +2,6 @@ from collections import Counter
 import re
 import torch
 from torch.utils.data import Dataset, DataLoader
-from torchtext.vocab import build_vocab_from_iterator
 
 # Sentence Dataset
 class SentenceDataset(Dataset):
@@ -24,9 +23,9 @@ class SentenceDataset(Dataset):
         return self.sentences[idx]
     
 class Vocabulary:
-    def __init__(self, sentences : Dataset):
+    def __init__(self, sentences):
         self.sentences = sentences
-        self.vocabulary = self._build_vocabulary()
+        self.vocabulary = self._build_vocabulary(self.sentences)
 
     @staticmethod
     def tokenize(text):
@@ -38,12 +37,20 @@ class Vocabulary:
         counter = Counter()
         for text in sentences:
             counter.update(self.tokenize(text))
-        # Sort tokens by frequency in descending order
-        sorted_tokens_by_freq = [token for token in counter.most_common()]
-        return build_vocab_from_iterator(sorted_tokens_by_freq)
+        # Sort tokens by frequency in descending order and return the 50k most common tokens
+        sorted_tokens_by_freq = [token for token in counter.most_common(50000)]
+        return sorted_tokens_by_freq
+    
+    def __len__(self):
+        return len(self.vocabulary)
+    
+    def __getitem__(self, idx):
+        return self.vocabulary[idx]
 
 
 
 if __name__ == "__main__":
     sentence_dataset = SentenceDataset("data/raw/ceten.xml")
-    breakpoint()
+    vocab = Vocabulary(sentence_dataset)
+    # 20 most common portuguese tokens
+    print(vocab[:20])
