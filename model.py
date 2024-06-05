@@ -1,10 +1,16 @@
 import torch
 import torch.nn as nn
 
-# Parameters
-vocab_size = 10  # Number of unique tokens in the vocabulary
-embedding_dim = 5  # Dimension of the embedding vector
-
-# Create an embedding layer
-embedding = nn.Embedding(num_embeddings=vocab_size, embedding_dim=embedding_dim)
-breakpoint()
+class NeuralProbabilisticModel(nn.Module):
+    def __init__(self, vocab_size, embedding_dim, hidden_dim, num_layers):
+        super(NeuralProbabilisticModel, self).__init__()
+        # Embedding layer
+        self.C = nn.Embedding(vocab_size, embedding_dim)
+        self.dense1 = nn.Linear(embedding_dim, hidden_dim)
+        self.dense2 = nn.Linear(hidden_dim, vocab_size)
+    
+    def forward(self, x):
+        out = self.C(x)
+        out = torch.tanh(self.dense1(out))
+        out = torch.softmax(self.dense2(x))
+        return x
