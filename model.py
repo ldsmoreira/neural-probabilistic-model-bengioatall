@@ -10,12 +10,19 @@ class NeuralProbabilisticModel(nn.Module):
 
         # Embedding layer
         self.C = nn.Embedding(len(vocab), embedding_dim)
+
+        # Hidden layer
         self.dense1 = nn.Linear(embedding_dim, hidden_dim)
+
+        # Output layer
         self.dense2 = nn.Linear(hidden_dim, len(vocab))
     
     def forward(self, x):
-        # x is a tensor of n * num_features x 1
-        out = self.C(x)
+        # x is in the form ['brasília', 'pesquisa', 'datafolha']
+        for i in range(len(x)):
+            x[i] = self.get_token_embedding(x[i])
+
+        out = torch.stack(x)
         out = torch.tanh(self.dense1(out))
         out = torch.softmax(self.dense2(x))
         return x
