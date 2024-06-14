@@ -5,6 +5,7 @@ from torch.utils.data import Dataset
 class SentenceDataset(Dataset):
     def __init__(self, path, n_gram=3):
         self.sentences = self._load_sentences(path)
+        self.vocab = Vocabulary(self.sentences)
         self.n_gram = n_gram
 
         self.data, self.label = self._build_dataset(self.sentences, self.n_gram)
