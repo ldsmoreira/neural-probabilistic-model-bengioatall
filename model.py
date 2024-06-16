@@ -18,13 +18,11 @@ class NeuralProbabilisticModel(nn.Module):
         self.dense2 = nn.Linear(hidden_dim, len(vocab))
     
     def forward(self, x):
-        # x is in the form ['brasília', 'pesquisa', 'datafolha']
-        for i in range(len(x)):
-            x[i] = self.get_token_embedding(x[i])
 
-        out = torch.stack(x)
+        out = self.C(x)
+        breakpoint()
         out = torch.tanh(self.dense1(out))
-        out = torch.softmax(self.dense2(x))
+        out = torch.softmax(self.dense2(out))
         return x
     
     def get_token_embedding(self, token):
