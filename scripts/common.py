@@ -16,8 +16,8 @@ def load_data():
     train_size = int(total_size * 0.8)
     test_size = total_size - train_size
     train_dataset, test_dataset = random_split(sentence_dataset, [train_size, test_size])
-    train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True, collate_fn=custom_collate_fn)
-    test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False, collate_fn=custom_collate_fn)
+    train_loader = DataLoader(train_dataset, batch_size=1024, shuffle=True, collate_fn=custom_collate_fn)
+    test_loader = DataLoader(test_dataset, batch_size=1024, shuffle=False, collate_fn=custom_collate_fn)
     return train_loader, test_loader
 
 def init_model(vocab):
