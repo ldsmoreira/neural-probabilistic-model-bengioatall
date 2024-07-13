@@ -34,3 +34,7 @@ my_pytorch_project/
 ├── requirements.txt        # Required packages
 ├── README.md               # Project description and instructions
 └── setup.py                # Installation script
+
+
+
+export PYTHONPATH=$PYTHONPATH:$(pwd)
