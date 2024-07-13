@@ -162,3 +162,5 @@ cython_debug/
 # Dataset
 data/raw/*
 data/processed/*
+
+losses.txt
