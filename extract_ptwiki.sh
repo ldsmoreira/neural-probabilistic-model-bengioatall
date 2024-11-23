@@ -5,6 +5,16 @@ WIKI_DUMP_URL="https://dumps.wikimedia.org/ptwiki/latest/ptwiki-latest-pages-art
 DOWNLOAD_DIR="data/raw"
 EXTRACTED_DIR="${DOWNLOAD_DIR}/ptwiki-latest-pages-articles"
 
+# Step 0: Reinstall CA certificates
+echo "Ensuring CA certificates are up to date..."
+if command -v apt-get &> /dev/null; then
+    sudo apt-get update && sudo apt-get install --reinstall ca-certificates -y
+elif command -v yum &> /dev/null; then
+    sudo yum reinstall ca-certificates -y
+else
+    echo "Unsupported package manager. Please ensure CA certificates are updated manually."
+fi
+
 # Create directories
 mkdir -p "${DOWNLOAD_DIR}"
 mkdir -p "${EXTRACTED_DIR}"
