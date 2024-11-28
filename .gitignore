@@ -164,3 +164,7 @@ data/raw/*
 data/processed/*
 
 losses.txt
+
+_data
+_data/
+_data/*
