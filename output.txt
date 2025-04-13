@@ -1,0 +1,300 @@
+
+--- Starting Epoch 1/10 ---
+Total Batches in Epoch 1: 6742
+Epoch [1/10], Batch [500/6742], Avg Interval Loss: 6.4774, Batch Time: 0.01s
+Epoch [1/10], Batch [1000/6742], Avg Interval Loss: 5.8566, Batch Time: 0.01s
+Epoch [1/10], Batch [1500/6742], Avg Interval Loss: 5.6691, Batch Time: 0.01s
+Epoch [1/10], Batch [2000/6742], Avg Interval Loss: 5.5655, Batch Time: 0.01s
+Epoch [1/10], Batch [2500/6742], Avg Interval Loss: 5.4764, Batch Time: 0.01s
+Epoch [1/10], Batch [3000/6742], Avg Interval Loss: 5.4093, Batch Time: 0.01s
+Epoch [1/10], Batch [3500/6742], Avg Interval Loss: 5.3645, Batch Time: 0.01s
+Epoch [1/10], Batch [4000/6742], Avg Interval Loss: 5.3134, Batch Time: 0.01s
+Epoch [1/10], Batch [4500/6742], Avg Interval Loss: 5.3050, Batch Time: 0.01s
+Epoch [1/10], Batch [5000/6742], Avg Interval Loss: 5.2752, Batch Time: 0.01s
+Epoch [1/10], Batch [5500/6742], Avg Interval Loss: 5.2358, Batch Time: 0.01s
+Epoch [1/10], Batch [6000/6742], Avg Interval Loss: 5.2174, Batch Time: 0.01s
+Epoch [1/10], Batch [6500/6742], Avg Interval Loss: 5.2108, Batch Time: 0.01s
+--- Epoch 1 Completed ---
+Average Training Loss for Epoch 1: 5.4796
+Epoch Duration: 105.13s
+Validation Loss after Epoch 1: 4.9957
+Validation Duration: 50.15s
+Best model updated and saved at Epoch 1 with Validation Loss: 4.9957
+Cosine Similarity between 'rei' and 'rainha' after Epoch 1: -0.0372
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.3736
+'suspenso' with similarity 0.3620
+'compostos' with similarity 0.3576
+'ritmo' with similarity 0.3531
+
+--- Starting Epoch 2/10 ---
+Total Batches in Epoch 2: 6742
+Epoch [2/10], Batch [500/6742], Avg Interval Loss: 5.1260, Batch Time: 0.01s
+Epoch [2/10], Batch [1000/6742], Avg Interval Loss: 5.1074, Batch Time: 0.01s
+Epoch [2/10], Batch [1500/6742], Avg Interval Loss: 5.1092, Batch Time: 0.01s
+Epoch [2/10], Batch [2000/6742], Avg Interval Loss: 5.1008, Batch Time: 0.01s
+Epoch [2/10], Batch [2500/6742], Avg Interval Loss: 5.0828, Batch Time: 0.01s
+Epoch [2/10], Batch [3000/6742], Avg Interval Loss: 5.0736, Batch Time: 0.01s
+Epoch [2/10], Batch [3500/6742], Avg Interval Loss: 5.0719, Batch Time: 0.01s
+Epoch [2/10], Batch [4000/6742], Avg Interval Loss: 5.0664, Batch Time: 0.01s
+Epoch [2/10], Batch [4500/6742], Avg Interval Loss: 5.0408, Batch Time: 0.01s
+Epoch [2/10], Batch [5000/6742], Avg Interval Loss: 5.0394, Batch Time: 0.01s
+Epoch [2/10], Batch [5500/6742], Avg Interval Loss: 5.0417, Batch Time: 0.01s
+Epoch [2/10], Batch [6000/6742], Avg Interval Loss: 5.0399, Batch Time: 0.01s
+Epoch [2/10], Batch [6500/6742], Avg Interval Loss: 5.0237, Batch Time: 0.01s
+--- Epoch 2 Completed ---
+Average Training Loss for Epoch 2: 5.0694
+Epoch Duration: 106.06s
+Validation Loss after Epoch 2: 4.8072
+Validation Duration: 50.29s
+Best model updated and saved at Epoch 2 with Validation Loss: 4.8072
+Cosine Similarity between 'rei' and 'rainha' after Epoch 2: 0.0164
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.3953
+'ritmo' with similarity 0.3402
+'perth' with similarity 0.3385
+'1885' with similarity 0.3246
+
+--- Starting Epoch 3/10 ---
+Total Batches in Epoch 3: 6742
+Epoch [3/10], Batch [500/6742], Avg Interval Loss: 4.9518, Batch Time: 0.01s
+Epoch [3/10], Batch [1000/6742], Avg Interval Loss: 4.9446, Batch Time: 0.01s
+Epoch [3/10], Batch [1500/6742], Avg Interval Loss: 4.9624, Batch Time: 0.01s
+Epoch [3/10], Batch [2000/6742], Avg Interval Loss: 4.9448, Batch Time: 0.01s
+Epoch [3/10], Batch [2500/6742], Avg Interval Loss: 4.9538, Batch Time: 0.01s
+Epoch [3/10], Batch [3000/6742], Avg Interval Loss: 4.9485, Batch Time: 0.01s
+Epoch [3/10], Batch [3500/6742], Avg Interval Loss: 4.9472, Batch Time: 0.01s
+Epoch [3/10], Batch [4000/6742], Avg Interval Loss: 4.9404, Batch Time: 0.01s
+Epoch [3/10], Batch [4500/6742], Avg Interval Loss: 4.9463, Batch Time: 0.01s
+Epoch [3/10], Batch [5000/6742], Avg Interval Loss: 4.9359, Batch Time: 0.01s
+Epoch [3/10], Batch [5500/6742], Avg Interval Loss: 4.9359, Batch Time: 0.01s
+Epoch [3/10], Batch [6000/6742], Avg Interval Loss: 4.9480, Batch Time: 0.01s
+Epoch [3/10], Batch [6500/6742], Avg Interval Loss: 4.9396, Batch Time: 0.01s
+--- Epoch 3 Completed ---
+Average Training Loss for Epoch 3: 4.9460
+Epoch Duration: 105.84s
+Validation Loss after Epoch 3: 4.7013
+Validation Duration: 49.94s
+Best model updated and saved at Epoch 3 with Validation Loss: 4.7013
+Cosine Similarity between 'rei' and 'rainha' after Epoch 3: 0.0614
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4093
+'caio' with similarity 0.3373
+'ritmo' with similarity 0.3369
+'perth' with similarity 0.3292
+
+--- Starting Epoch 4/10 ---
+Total Batches in Epoch 4: 6742
+Epoch [4/10], Batch [500/6742], Avg Interval Loss: 4.8494, Batch Time: 0.01s
+Epoch [4/10], Batch [1000/6742], Avg Interval Loss: 4.8516, Batch Time: 0.01s
+Epoch [4/10], Batch [1500/6742], Avg Interval Loss: 4.8721, Batch Time: 0.01s
+Epoch [4/10], Batch [2000/6742], Avg Interval Loss: 4.8762, Batch Time: 0.01s
+Epoch [4/10], Batch [2500/6742], Avg Interval Loss: 4.8718, Batch Time: 0.01s
+Epoch [4/10], Batch [3000/6742], Avg Interval Loss: 4.8784, Batch Time: 0.01s
+Epoch [4/10], Batch [3500/6742], Avg Interval Loss: 4.8734, Batch Time: 0.01s
+Epoch [4/10], Batch [4000/6742], Avg Interval Loss: 4.8742, Batch Time: 0.01s
+Epoch [4/10], Batch [4500/6742], Avg Interval Loss: 4.8797, Batch Time: 0.01s
+Epoch [4/10], Batch [5000/6742], Avg Interval Loss: 4.8841, Batch Time: 0.01s
+Epoch [4/10], Batch [5500/6742], Avg Interval Loss: 4.8726, Batch Time: 0.01s
+Epoch [4/10], Batch [6000/6742], Avg Interval Loss: 4.8733, Batch Time: 0.01s
+Epoch [4/10], Batch [6500/6742], Avg Interval Loss: 4.8803, Batch Time: 0.01s
+--- Epoch 4 Completed ---
+Average Training Loss for Epoch 4: 4.8723
+Epoch Duration: 105.95s
+Validation Loss after Epoch 4: 4.6309
+Validation Duration: 49.83s
+Best model updated and saved at Epoch 4 with Validation Loss: 4.6309
+Cosine Similarity between 'rei' and 'rainha' after Epoch 4: 0.0922
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4070
+'substituiu' with similarity 0.3455
+'caio' with similarity 0.3410
+'marido' with similarity 0.3369
+
+--- Starting Epoch 5/10 ---
+Total Batches in Epoch 5: 6742
+Epoch [5/10], Batch [500/6742], Avg Interval Loss: 4.7959, Batch Time: 0.01s
+Epoch [5/10], Batch [1000/6742], Avg Interval Loss: 4.7995, Batch Time: 0.01s
+Epoch [5/10], Batch [1500/6742], Avg Interval Loss: 4.8148, Batch Time: 0.01s
+Epoch [5/10], Batch [2000/6742], Avg Interval Loss: 4.8189, Batch Time: 0.01s
+Epoch [5/10], Batch [2500/6742], Avg Interval Loss: 4.8262, Batch Time: 0.01s
+Epoch [5/10], Batch [3000/6742], Avg Interval Loss: 4.8253, Batch Time: 0.01s
+Epoch [5/10], Batch [3500/6742], Avg Interval Loss: 4.8207, Batch Time: 0.01s
+Epoch [5/10], Batch [4000/6742], Avg Interval Loss: 4.8251, Batch Time: 0.01s
+Epoch [5/10], Batch [4500/6742], Avg Interval Loss: 4.8222, Batch Time: 0.01s
+Epoch [5/10], Batch [5000/6742], Avg Interval Loss: 4.8368, Batch Time: 0.01s
+Epoch [5/10], Batch [5500/6742], Avg Interval Loss: 4.8214, Batch Time: 0.02s
+Epoch [5/10], Batch [6000/6742], Avg Interval Loss: 4.8319, Batch Time: 0.01s
+Epoch [5/10], Batch [6500/6742], Avg Interval Loss: 4.8329, Batch Time: 0.01s
+--- Epoch 5 Completed ---
+Average Training Loss for Epoch 5: 4.8214
+Epoch Duration: 105.68s
+Validation Loss after Epoch 5: 4.5800
+Validation Duration: 49.91s
+Best model updated and saved at Epoch 5 with Validation Loss: 4.5800
+Cosine Similarity between 'rei' and 'rainha' after Epoch 5: 0.1257
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4023
+'imperador' with similarity 0.3569
+'substituiu' with similarity 0.3567
+'afonso' with similarity 0.3372
+
+--- Starting Epoch 6/10 ---
+Total Batches in Epoch 6: 6742
+Epoch [6/10], Batch [500/6742], Avg Interval Loss: 4.7425, Batch Time: 0.01s
+Epoch [6/10], Batch [1000/6742], Avg Interval Loss: 4.7577, Batch Time: 0.01s
+Epoch [6/10], Batch [1500/6742], Avg Interval Loss: 4.7748, Batch Time: 0.01s
+Epoch [6/10], Batch [2000/6742], Avg Interval Loss: 4.7764, Batch Time: 0.01s
+Epoch [6/10], Batch [2500/6742], Avg Interval Loss: 4.7694, Batch Time: 0.01s
+Epoch [6/10], Batch [3000/6742], Avg Interval Loss: 4.7775, Batch Time: 0.01s
+Epoch [6/10], Batch [3500/6742], Avg Interval Loss: 4.7866, Batch Time: 0.01s
+Epoch [6/10], Batch [4000/6742], Avg Interval Loss: 4.7927, Batch Time: 0.01s
+Epoch [6/10], Batch [4500/6742], Avg Interval Loss: 4.8013, Batch Time: 0.01s
+Epoch [6/10], Batch [5000/6742], Avg Interval Loss: 4.7941, Batch Time: 0.01s
+Epoch [6/10], Batch [5500/6742], Avg Interval Loss: 4.7894, Batch Time: 0.01s
+Epoch [6/10], Batch [6000/6742], Avg Interval Loss: 4.8168, Batch Time: 0.01s
+Epoch [6/10], Batch [6500/6742], Avg Interval Loss: 4.7951, Batch Time: 0.01s
+--- Epoch 6 Completed ---
+Average Training Loss for Epoch 6: 4.7830
+Epoch Duration: 105.00s
+Validation Loss after Epoch 6: 4.5404
+Validation Duration: 49.97s
+Best model updated and saved at Epoch 6 with Validation Loss: 4.5404
+Cosine Similarity between 'rei' and 'rainha' after Epoch 6: 0.1492
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4028
+'imperador' with similarity 0.3766
+'substituiu' with similarity 0.3596
+'papa' with similarity 0.3366
+
+--- Starting Epoch 7/10 ---
+Total Batches in Epoch 7: 6742
+Epoch [7/10], Batch [500/6742], Avg Interval Loss: 4.7171, Batch Time: 0.01s
+Epoch [7/10], Batch [1000/6742], Avg Interval Loss: 4.7119, Batch Time: 0.02s
+Epoch [7/10], Batch [1500/6742], Avg Interval Loss: 4.7399, Batch Time: 0.01s
+Epoch [7/10], Batch [2000/6742], Avg Interval Loss: 4.7401, Batch Time: 0.01s
+Epoch [7/10], Batch [2500/6742], Avg Interval Loss: 4.7514, Batch Time: 0.01s
+Epoch [7/10], Batch [3000/6742], Avg Interval Loss: 4.7401, Batch Time: 0.01s
+Epoch [7/10], Batch [3500/6742], Avg Interval Loss: 4.7510, Batch Time: 0.01s
+Epoch [7/10], Batch [4000/6742], Avg Interval Loss: 4.7580, Batch Time: 0.01s
+Epoch [7/10], Batch [4500/6742], Avg Interval Loss: 4.7636, Batch Time: 0.01s
+Epoch [7/10], Batch [5000/6742], Avg Interval Loss: 4.7765, Batch Time: 0.01s
+Epoch [7/10], Batch [5500/6742], Avg Interval Loss: 4.7746, Batch Time: 0.01s
+Epoch [7/10], Batch [6000/6742], Avg Interval Loss: 4.7666, Batch Time: 0.01s
+Epoch [7/10], Batch [6500/6742], Avg Interval Loss: 4.7634, Batch Time: 0.01s
+--- Epoch 7 Completed ---
+Average Training Loss for Epoch 7: 4.7511
+Epoch Duration: 105.08s
+Validation Loss after Epoch 7: 4.5064
+Validation Duration: 49.79s
+Best model updated and saved at Epoch 7 with Validation Loss: 4.5064
+Cosine Similarity between 'rei' and 'rainha' after Epoch 7: 0.1644
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4068
+'imperador' with similarity 0.3799
+'substituiu' with similarity 0.3648
+'papa' with similarity 0.3546
+
+--- Starting Epoch 8/10 ---
+Total Batches in Epoch 8: 6742
+Epoch [8/10], Batch [500/6742], Avg Interval Loss: 4.6796, Batch Time: 0.01s
+Epoch [8/10], Batch [1000/6742], Avg Interval Loss: 4.7086, Batch Time: 0.01s
+Epoch [8/10], Batch [1500/6742], Avg Interval Loss: 4.7198, Batch Time: 0.01s
+Epoch [8/10], Batch [2000/6742], Avg Interval Loss: 4.7078, Batch Time: 0.01s
+Epoch [8/10], Batch [2500/6742], Avg Interval Loss: 4.7286, Batch Time: 0.01s
+Epoch [8/10], Batch [3000/6742], Avg Interval Loss: 4.7286, Batch Time: 0.01s
+Epoch [8/10], Batch [3500/6742], Avg Interval Loss: 4.7276, Batch Time: 0.01s
+Epoch [8/10], Batch [4000/6742], Avg Interval Loss: 4.7306, Batch Time: 0.01s
+Epoch [8/10], Batch [4500/6742], Avg Interval Loss: 4.7326, Batch Time: 0.01s
+Epoch [8/10], Batch [5000/6742], Avg Interval Loss: 4.7347, Batch Time: 0.01s
+Epoch [8/10], Batch [5500/6742], Avg Interval Loss: 4.7404, Batch Time: 0.02s
+Epoch [8/10], Batch [6000/6742], Avg Interval Loss: 4.7435, Batch Time: 0.01s
+Epoch [8/10], Batch [6500/6742], Avg Interval Loss: 4.7522, Batch Time: 0.01s
+--- Epoch 8 Completed ---
+Average Training Loss for Epoch 8: 4.7264
+Epoch Duration: 105.08s
+Validation Loss after Epoch 8: 4.4790
+Validation Duration: 49.95s
+Best model updated and saved at Epoch 8 with Validation Loss: 4.4790
+Cosine Similarity between 'rei' and 'rainha' after Epoch 8: 0.1861
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'d' with similarity 0.4071
+'imperador' with similarity 0.3925
+'substituiu' with similarity 0.3637
+'papa' with similarity 0.3598
+
+--- Starting Epoch 9/10 ---
+Total Batches in Epoch 9: 6742
+Epoch [9/10], Batch [500/6742], Avg Interval Loss: 4.6512, Batch Time: 0.01s
+Epoch [9/10], Batch [1000/6742], Avg Interval Loss: 4.6640, Batch Time: 0.01s
+Epoch [9/10], Batch [1500/6742], Avg Interval Loss: 4.6920, Batch Time: 0.01s
+Epoch [9/10], Batch [2000/6742], Avg Interval Loss: 4.6906, Batch Time: 0.01s
+Epoch [9/10], Batch [2500/6742], Avg Interval Loss: 4.6967, Batch Time: 0.01s
+Epoch [9/10], Batch [3000/6742], Avg Interval Loss: 4.7100, Batch Time: 0.01s
+Epoch [9/10], Batch [3500/6742], Avg Interval Loss: 4.7110, Batch Time: 0.01s
+Epoch [9/10], Batch [4000/6742], Avg Interval Loss: 4.7150, Batch Time: 0.01s
+Epoch [9/10], Batch [4500/6742], Avg Interval Loss: 4.7186, Batch Time: 0.01s
+Epoch [9/10], Batch [5000/6742], Avg Interval Loss: 4.7132, Batch Time: 0.01s
+Epoch [9/10], Batch [5500/6742], Avg Interval Loss: 4.7136, Batch Time: 0.01s
+Epoch [9/10], Batch [6000/6742], Avg Interval Loss: 4.7205, Batch Time: 0.02s
+Epoch [9/10], Batch [6500/6742], Avg Interval Loss: 4.7383, Batch Time: 0.01s
+--- Epoch 9 Completed ---
+Average Training Loss for Epoch 9: 4.7034
+Epoch Duration: 107.50s
+Validation Loss after Epoch 9: 4.4558
+Validation Duration: 50.83s
+Best model updated and saved at Epoch 9 with Validation Loss: 4.4558
+Cosine Similarity between 'rei' and 'rainha' after Epoch 9: 0.1966
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'imperador' with similarity 0.3973
+'d' with similarity 0.3959
+'papa' with similarity 0.3756
+'substituiu' with similarity 0.3666
+
+--- Starting Epoch 10/10 ---
+Total Batches in Epoch 10: 6742
+Epoch [10/10], Batch [500/6742], Avg Interval Loss: 4.6522, Batch Time: 0.01s
+Epoch [10/10], Batch [1000/6742], Avg Interval Loss: 4.6514, Batch Time: 0.01s
+Epoch [10/10], Batch [1500/6742], Avg Interval Loss: 4.6606, Batch Time: 0.01s
+Epoch [10/10], Batch [2000/6742], Avg Interval Loss: 4.6747, Batch Time: 0.02s
+Epoch [10/10], Batch [2500/6742], Avg Interval Loss: 4.6768, Batch Time: 0.01s
+Epoch [10/10], Batch [3000/6742], Avg Interval Loss: 4.6865, Batch Time: 0.01s
+Epoch [10/10], Batch [3500/6742], Avg Interval Loss: 4.6848, Batch Time: 0.01s
+Epoch [10/10], Batch [4000/6742], Avg Interval Loss: 4.6930, Batch Time: 0.01s
+Epoch [10/10], Batch [4500/6742], Avg Interval Loss: 4.7002, Batch Time: 0.01s
+Epoch [10/10], Batch [5000/6742], Avg Interval Loss: 4.7005, Batch Time: 0.01s
+Epoch [10/10], Batch [5500/6742], Avg Interval Loss: 4.7006, Batch Time: 0.01s
+Epoch [10/10], Batch [6000/6742], Avg Interval Loss: 4.7064, Batch Time: 0.01s
+Epoch [10/10], Batch [6500/6742], Avg Interval Loss: 4.7011, Batch Time: 0.01s
+--- Epoch 10 Completed ---
+Average Training Loss for Epoch 10: 4.6846
+Epoch Duration: 108.02s
+Validation Loss after Epoch 10: 4.4323
+Validation Duration: 51.03s
+Best model updated and saved at Epoch 10 with Validation Loss: 4.4323
+Cosine Similarity between 'rei' and 'rainha' after Epoch 10: 0.2128
+
+The 5 most similar words to 'rei' are:
+'rei' with similarity 1.0000
+'imperador' with similarity 0.4065
+'d' with similarity 0.3897
+'papa' with similarity 0.3824
+'substituiu' with similarity 0.3670
